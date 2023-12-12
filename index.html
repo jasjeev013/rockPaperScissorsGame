@@ -4,14 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Square&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/main.css">
 </head>
-<body>
-    <div class="displayScore"></div>
-    <button class ="js-autoplay">Autoplay</button>
-    <button class="playerMove" data-move ="Rock">Rock</button>
-    <button class="playerMove" data-move ="Scissors">Scissors</button>
-    <button class="playerMove" data-move ="Paper">Paper</button>
-    <button class="js-reset">Reset Now</button>
+<body> 
+    <h2>Rock.Paper.Scissors</h2>
+    <div class="displayScore js-displayScore"></div>
+    <div class="displayButtons">
+        <button class ="js-autoplay autoplay"></button>
+        <button class="js-playerMove rock" data-move ="Rock"></button>
+        <button class="js-playerMove scissors" data-move ="Scissors"></button>
+        <button class="js-playerMove paper" data-move ="Paper"></button>
+        <button class="js-reset reset"></button>
+    </div>
 
     <script type="module" src="./scripts/main.js"></script>
 </body>

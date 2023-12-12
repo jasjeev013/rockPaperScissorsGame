@@ -1,11 +1,11 @@
 import { score,updateScore,computerMove } from "./score.js";
 
 function getScore(){
-    document.querySelector('.displayScore').innerHTML=`My Score: ${score.player} Computer Score: ${score.computer}`;
+    document.querySelector('.js-displayScore').innerHTML=`My Score: ${score.player} Computer Score: ${score.computer}`;
 }
 
 
-let playerMove = document.querySelectorAll('.playerMove');
+let playerMove = document.querySelectorAll('.js-playerMove');
 for (let i = 0; i < playerMove.length; i++) {
     let player = playerMove[i];
     player.addEventListener('click',()=>{
