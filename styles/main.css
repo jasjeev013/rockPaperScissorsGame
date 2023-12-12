@@ -18,7 +18,14 @@ h2{
     font-size: 50px;
     font-weight: 500;
 }
+.displayScore{
+    border: 2px solid red;
+    position: absolute;
+    top: 15%;
+    right: 20%;
+    left: 20%;
 
+}
 .displayButtons{
     display: flex;
     align-items: center;
