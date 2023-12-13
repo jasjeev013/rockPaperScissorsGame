@@ -54,22 +54,22 @@ export function updateHTML(player,computer){
     let playerImg = document.querySelector('.js-your-choice');
     let compImg = document.querySelector('.js-comp-choice');
     if(player=='Rock'){
-        playerImg.innerHTML=`<img src="/images/gameplay_bar/rock_circle.png" alt="circle" height="300px" width="300px">`;
+        playerImg.innerHTML=`<img src="./images/gameplay_bar/rock_circle.png" alt="circle" height="300px" width="300px">`;
     }else if(player=='Scissors'){
-        playerImg.innerHTML=`<img src="/images/gameplay_bar/scissor_circle.png" alt="circle" height="300px" width="300px">`;
+        playerImg.innerHTML=`<img src="./images/gameplay_bar/scissor_circle.png" alt="circle" height="300px" width="300px">`;
     }else if(player == 'Paper'){
-        playerImg.innerHTML=`<img src="/images/gameplay_bar/paper_circle.png" alt="circle" height="300px" width="300px">`;
+        playerImg.innerHTML=`<img src="./images/gameplay_bar/paper_circle.png" alt="circle" height="300px" width="300px">`;
     }else{
-        playerImg.innerHTML=`<img src="/images/gameplay_bar/circle.png" alt="circle" height="300px" width="300px">`;
+        playerImg.innerHTML=`<img src="./images/gameplay_bar/circle.png" alt="circle" height="300px" width="300px">`;
     }
     if(computer=='Rock'){
-        compImg.innerHTML=`<img src="/images/gameplay_bar/rock_circle.png" alt="circle" height="300px" width="300px">`;
+        compImg.innerHTML=`<img src="./images/gameplay_bar/rock_circle.png" alt="circle" height="300px" width="300px">`;
     }else if(computer=='Scissors'){
-        compImg.innerHTML=`<img src="/images/gameplay_bar/scissor_circle.png" alt="circle" height="300px" width="300px">`;
+        compImg.innerHTML=`<img src="./images/gameplay_bar/scissor_circle.png" alt="circle" height="300px" width="300px">`;
     }else if(computer == 'Paper'){
-        compImg.innerHTML=`<img src="/images/gameplay_bar/paper_circle.png" alt="circle" height="300px" width="300px">`;
+        compImg.innerHTML=`<img src="./images/gameplay_bar/paper_circle.png" alt="circle" height="300px" width="300px">`;
     }else{
-        compImg.innerHTML=`<img src="/images/gameplay_bar/circle.png" alt="circle" height="300px" width="300px">`;
+        compImg.innerHTML=`<img src="./images/gameplay_bar/circle.png" alt="circle" height="300px" width="300px">`;
     }
 }
 

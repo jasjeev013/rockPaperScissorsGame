@@ -102,7 +102,7 @@ h2{
     width: 90px;
     height: 90px;
     background-color: transparent;
-    background-image: url(/images/gameplay_bar/autoplay.png);
+    background-image: url(./images/gameplay_bar/autoplay.png);
     background-size: cover; 
     background-repeat: no-repeat;
     background-position: center;
@@ -115,7 +115,7 @@ h2{
     width: 100px;
     height: 100px;
     background-color: transparent;
-    background-image: url(/images/gameplay_bar/rock.png);
+    background-image: url(./images/gameplay_bar/rock.png);
     background-size: cover; 
     background-repeat: no-repeat;
     background-position: center;
@@ -127,7 +127,7 @@ h2{
     width: 90px;
     height: 90px;
     background-color: transparent;
-    background-image: url(/images/gameplay_bar/paper.png);
+    background-image: url(./images/gameplay_bar/paper.png);
     background-size: cover; 
     background-repeat: no-repeat;
     background-position: center;
@@ -139,7 +139,7 @@ h2{
     width: 90px;
     height: 90px;
     background-color: transparent;
-    background-image: url(/images/gameplay_bar/scissors.png);
+    background-image: url(./images/gameplay_bar/scissors.png);
     background-size: cover; 
     background-repeat: no-repeat;
     background-position: center;
@@ -151,7 +151,7 @@ h2{
     width: 80px;
     height: 80px;
     background-color: transparent;
-    background-image: url(/images/gameplay_bar/reset.png);
+    background-image: url(./images/gameplay_bar/reset.png);
     background-size: cover; 
     background-repeat: no-repeat;
     background-position: center;
