@@ -13,7 +13,7 @@ This is a web-based Rock.Paper.Scissors game built using HTML, CSS, and JavaScri
 - Realistic animations and sound effects
 - Score tracking
 
-## Screenshots
+## References
 
 ![Screenshot 1](/Designs/Samples/1.png)
 ![Screenshot 2](/Designs/Samples/2.jpg)
